@@ -1,0 +1,31 @@
+.expandable-textbox-container {
+  display: flex;
+  flex-direction: column;
+}
+.expandable-textbox-children {
+  display: flex;
+  flex-direction: column;
+}
+.expandable-textbox-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.expandable-textbox-child > div {
+  margin: auto;
+}
+
+.expandable-textbox-label {
+  margin-right: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+}
+
+.expandable-textbox-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
